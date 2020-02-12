@@ -13,9 +13,10 @@ let friendNum = parseInt(prompt("Enter a 1 if your first person was your best fr
 let bestFriend = friendNames[friendNum - 1]
 console.log(bestFriend)
 
+
 if (bestFriend.charAt(0) == "A")
    alert("Your best friends' name starts with A.")
-else if (bestFriend.charAt(0) = "B")
+else if (bestFriend.charAt(0) == "B")
    alert("Your best friends' name starts with B.")
 else 
    alert("Your name starts with something other than A or B.")
